@@ -32,5 +32,20 @@ console.log(raining);
 let breakfast="starbucks";
 let lunch;
 lunch=breakfast;
+//Both variables hold the same value 
 console.log(breakfast);
 console.log(lunch);
+//Above statements log the VALUES stored in VARIABLES named breakgfast and lunch 
+//Below statements log the literal string "lunch"
+console.log("lunch");
+
+//MATH OPERATIONS
+let score = 0
+score=score + 5;
+console.log(score);
+score = score -10;
+console.log(score);
+score = score * (-3);
+console.log(score);
+score = score / 5;
+console.log(score);
