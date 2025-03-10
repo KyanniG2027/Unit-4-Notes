@@ -49,3 +49,31 @@ score = score * (-3);
 console.log(score);
 score = score / 5;
 console.log(score);
+
+// Can combine operators, evaluation followes PEMDAS
+
+score = (score * 3 /7 -4 + 6  + (-6)) ** 2;
+console.log(score);
+
+// STRING CONCATENATION (merging with the PLUS SIGN)
+// Strings are indicated with "Quotes"
+let greeting = "Hello " + "Friend";
+console.log(greeting);
+
+//Can combine String Literales with string VARIABLES
+let username ="nyc_cats_xoxo";
+console.log("Welcome"   + username + "🐍");
+
+//Numbers get converted to Strings if combines 
+console.log(4 + 5); //9 (did addition)
+console.log("4" + 5);// 45 (conceatenate, not math)
+console.log(4 + "5");
+
+//SHORTCUT OPERATERS (incremant/Decrement)
+let counter=0;
+counter= counter + 1 // LONG WAY 
+counter++; //SHORTCOUNT 
+console.log(counter);
+console.log("count is: " + counter);
+counter--;
+console.log ("count is" + counter);
