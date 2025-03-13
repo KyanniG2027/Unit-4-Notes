@@ -77,3 +77,25 @@ console.log(counter);
 console.log("count is: " + counter);
 counter--;
 console.log ("count is" + counter);
+
+/*FUNCTIONS:
+ reasuable sets of code statements 
+ that perfrom a specidic task or process 
+ */ 
+
+ // console.log is a FUNCTION that we've used
+ //TASK: display dfata in the console
+ console.log("I just used a function!");
+
+ // DECLARE (create) your own function 
+ function skincare() {
+    //STATEMNTS (actions) to execute for this routine 
+    console.log("1.Cleasne");
+    console.log("2. Apply toner");
+    console.log("3 mosturize");
+
+ }
+
+ // CALL da FUNCTION to use it!
+  skincare();
+  skincare(""); // can fun the function app 
